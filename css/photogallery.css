@@ -1,14 +1,57 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+header{
+    background-image: url(https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.return
+{   
+    font-family: 'Lato', 'Arial', sans-serif;
+    /* margin: 20px; */
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    width: 45px;
+    color: white;
+}
+.return a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.return a:hover{
+    border-bottom: solid 1px white;
+}
+.heading{
+    color: rgb(41, 41, 41);
+    background-color: rgba(255, 255, 255, 0.473);
+    overflow: hidden;
+    font-size: 48px;
+    padding: 10%;
+    margin: 0%;
+    border-bottom: solid 4px orange;
+    width: 80%;
+}
+center{
+    margin: 0%;
+}
+/* --------------------------gallery --------------------------*/
 .gallery {
 	display: flex;
 	padding: 2px;
 	transition: .3s;
+    
 }
-.gallery:hover gallery__image{
-	filter: grayscale(1);
+.gallery__image:hover{
+	filter: saturate(1.5);
 }
-/* .gallery__image:hover{
-	filter: grayscale();
-} */
+
 .gallery__column {
 		display: flex;
 		flex-direction: column;
@@ -36,4 +79,8 @@
     margin: 0%;
 }
 
+h1 {
+    font-family: 'Lato', 'Arial';
+    margin: 0%;
+}
 

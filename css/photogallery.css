@@ -1,0 +1,39 @@
+.gallery {
+	display: flex;
+	padding: 2px;
+	transition: .3s;
+}
+.gallery:hover gallery__image{
+	filter: grayscale(1);
+}
+/* .gallery__image:hover{
+	filter: grayscale();
+} */
+.gallery__column {
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+}
+.gallery__image {
+    display: block;
+    width: 100%;
+    transition: .3s;
+}   
+.gallery__image:hover {
+    transform: scale(1.1);
+    }
+.gallery__thumb {
+	position: relative;
+    margin: 2px;
+
+}
+.gallery__link {
+    margin: 2px;
+    overflow: hidden;
+}
+.gallery__link{
+    padding: 0%;
+    margin: 0%;
+}
+
+
